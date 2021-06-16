@@ -1,0 +1,256 @@
+CRITICAL - 2021-04-11 05:58:34 --> Invalid file: admin/barang.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/barang.ph...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(27): view('admin/barang')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-11 06:03:38 --> Cannot redeclare App\Controllers\Admin::barang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-11 06:03:42 --> Cannot redeclare App\Controllers\Admin::barang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-11 06:03:52 --> Cannot redeclare App\Controllers\Admin::barang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-11 06:42:40 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/barang')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/barang')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-11 06:47:01 --> Undefined constant "active"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-11 06:47:37 --> Undefined variable $menu_active
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:51:07 --> Undefined variable $menu_active
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:51:24 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/transaksi')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/transaksi')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-11 06:52:12 --> Undefined variable $menu
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:52:29 --> Undefined variable $menu
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:58:51 --> Undefined variable $menu
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:58:54 --> Undefined variable $menu
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:59:31 --> Undefined variable $menu
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 06:59:46 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:00:02 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:01:53 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:04:49 --> Undefined variable $sub
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(29): view('layout/sidebar', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:05:25 --> Undefined variable $sub
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(29): view('layout/sidebar', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:06:06 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(19): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:06:16 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(65): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:07:54 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(72): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:08:04 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(24): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:08:09 --> Undefined variable $title
+#0 C:\xampp\htdocs\kasir\app\Views\layout\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(24): view('layout/sidebar')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-11 07:13:46 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(34): view('layout/sidebar', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-11 07:14:01 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(34): view('layout/sidebar', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-11 07:14:31 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(34): view('layout/sidebar', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

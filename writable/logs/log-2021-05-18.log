@@ -1,0 +1,468 @@
+CRITICAL - 2021-05-18 03:12:45 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:13:33 --> Call to undefined method App\Models\SatuanbarangModel::generatenewidSatuanbarang
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): CodeIgniter\Model->__call('generatenewidSa...', Array)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:13:35 --> Call to undefined method App\Models\SatuanbarangModel::generatenewidSatuanbarang
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): CodeIgniter\Model->__call('generatenewidSa...', Array)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:14:13 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:14:14 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:14:15 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:16:33 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:16:34 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:16:34 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:16:35 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanbarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(66): App\Models\SatuanbarangModel->generatenewidSatuanbarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-18 03:17:59 --> syntax error, unexpected identifier "kevalidan"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 03:18:00 --> syntax error, unexpected identifier "kevalidan"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 03:18:17 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:17 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:18 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:18 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:19 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:19 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 03:18:20 --> Undefined property: App\Controllers\Satuan::$satuanbarangModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Satuan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Satuan->satuan_tambah()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:37:56 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('26')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:42:34 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('26')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:47:42 --> syntax error, unexpected token "!="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(134): view('pegawai/pegawai...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('25')
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:47:56 --> Undefined constant "role"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(134): view('pegawai/pegawai...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('25')
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-18 06:50:05 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(134): view('pegawai/pegawai...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('27')
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:50:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kasir\app\Views\pegawai\pegawai_ubah.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(134): view('pegawai/pegawai...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('21')
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 06:53:14 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:54:04 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:54:19 --> Undefined variable $rules_username
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:54:55 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('26')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 06:55:27 --> syntax error, unexpected single-quoted string ""
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:55:29 --> syntax error, unexpected single-quoted string ""
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:55:30 --> syntax error, unexpected single-quoted string ""
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:55:32 --> syntax error, unexpected single-quoted string ""
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:55:33 --> syntax error, unexpected single-quoted string ""
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-18 06:59:59 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('26')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:00:05 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('26')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:07:28 --> syntax error, unexpected identifier "dd"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('pegawai/pegawai...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pegawai/pegawai...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:07:34 --> Undefined property: App\Controllers\Pegawai::$satuanModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 146)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:07:48 --> Undefined variable $pegawai
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:14:28 --> Undefined property: App\Controllers\Pegawai::$satuanModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('27')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 07:30:05 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:35:55 --> Undefined array key "id_pegawai"
+#0 C:\xampp\htdocs\kasir\app\Views\pegawai\pegawai_ubah.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(137): view('pegawai/pegawai...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 07:36:25 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:37:06 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:37:58 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:39:47 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:40:47 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 07:40:53 --> Too few arguments to function App\Controllers\Pegawai::pegawai_ubah(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-18 08:13:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kasir\app\Views\pegawai\pegawai_ubah.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(137): view('pegawai/pegawai...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('30')
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 08:14:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kasir\app\Views\pegawai\pegawai_ubah.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(137): view('pegawai/pegawai...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('30')
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 08:14:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kasir\app\Views\pegawai\pegawai_ubah.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/pegawai...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(137): view('pegawai/pegawai...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_ubah('30')
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-18 08:47:18 --> Undefined variable $rules_username
+#0 C:\xampp\htdocs\kasir\app\Controllers\Pegawai.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 164)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pegawai->pegawai_update('40')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-18 22:13:06 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

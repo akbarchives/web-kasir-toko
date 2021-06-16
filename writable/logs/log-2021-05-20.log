@@ -1,0 +1,388 @@
+CRITICAL - 2021-05-20 02:01:48 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('stokmasuk')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('stokmasuk')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:02:05 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('stokmasuk')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('stokmasuk')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:02:07 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('stokmasuk')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('stokmasuk')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:02:33 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('stokmasuk')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('stokmasuk')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:02:34 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('stokmasuk')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('stokmasuk')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:04:54 --> Undefined property: App\Controllers\StokMasuk::$StokMasukModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-20 02:07:15 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\StokMasukModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(29): App\Models\StokMasukModel->generatenewidStokMasuk()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 02:07:19 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\StokMasukModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(29): App\Models\StokMasukModel->generatenewidStokMasuk()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 02:10:40 --> Undefined variable $generatenewidStokMasuk
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:11:28 --> Undefined array key 1
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:11:29 --> Undefined array key 1
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:11:32 --> Undefined array key 1
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:12:39 --> Undefined array key "id_stok_masuk"
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:14:07 --> Undefined array key "id_stok_masuk"
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 02:15:19 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 02:36:40 --> Undefined variable $satuan
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 03:26:42 --> Call to undefined function nurmber_format()
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-20 05:19:34 --> Unclosed '[' does not match ')'
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(34): view('stokmasuk/stokm...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 05:29:43 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk_tambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(52): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk_tambah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 05:34:29 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk_tambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(52): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk_tambah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 05:34:34 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk_tambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(52): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk_tambah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 08:53:50 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk_tambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(52): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk_tambah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 08:59:12 --> Cannot declare class App\Models\SatuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 08:59:15 --> Cannot declare class App\Models\SatuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 08:59:16 --> Cannot declare class App\Models\SatuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 08:59:20 --> Cannot declare class App\Models\SatuanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 08:59:53 --> Undefined variable $validation
+#0 C:\xampp\htdocs\kasir\app\Views\stokmasuk\stokmasuk_tambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('stokmasuk/stokm...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\StokMasuk.php(55): view('stokmasuk/stokm...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\StokMasuk->stokmasuk_tambah()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokMasuk))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-20 09:28:43 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('barang/barang', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(40): view('barang/barang', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-05-20 09:47:51 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 09:50:00 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 09:50:02 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 09:50:02 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 09:50:54 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:51:02 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:51:03 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:51:04 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:51:13 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:52:00 --> syntax error, unexpected variable "$new", expecting "("
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:52:01 --> syntax error, unexpected variable "$new", expecting "("
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Bara...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Bara...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Barang->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-20 09:52:10 --> Undefined variable $new
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-20 09:52:21 --> Undefined variable $new
+#0 C:\xampp\htdocs\kasir\app\Models\BarangModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Barang.php(35): App\Models\BarangModel->generatenewidBarang()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Barang->barang()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

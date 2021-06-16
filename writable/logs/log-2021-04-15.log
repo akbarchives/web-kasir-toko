@@ -1,0 +1,1058 @@
+CRITICAL - 2021-04-15 04:40:38 --> Undefined array key "id_satuan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\kategori.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/ka...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(72): view('admin/barang/ka...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->kategori()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 04:50:17 --> Too few arguments to function App\Controllers\Admin::satuan_update(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_update()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 04:51:00 --> Too few arguments to function App\Controllers\Admin::satuan_update(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_update()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 05:19:51 --> syntax error, unexpected token "endforeach"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(127): view('admin/barang/sa...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-15 05:40:13 --> mysqli_sql_exception: Table 'db_kasirtoko.perusahaan_barang' doesn't exist in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 05:40:13 --> Table 'db_kasirtoko.perusahaan_barang' doesn't exist
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 05:40:36 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 05:41:10 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 05:41:40 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 05:41:43 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 05:41:44 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 05:42:13 --> Invalid file: admin/supplier/perushaan.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/supplier/...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 06:03:24 --> Undefined variable $satuan
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\perusahaan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 06:13:40 --> Undefined variable $perusahaan
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\perusahaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(223): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 06:14:37 --> Undefined variable $perusahaan
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\perusahaan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(225): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-15 06:15:01 --> mysqli_sql_exception: Table 'db_kasirtoko.perusahaan_barang' doesn't exist in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 06:15:01 --> Table 'db_kasirtoko.perusahaan_barang' doesn't exist
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-15 06:16:03 --> mysqli_sql_exception: Table 'db_kasirtoko.perusahaan_barang' doesn't exist in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 06:16:03 --> Table 'db_kasirtoko.perusahaan_barang' doesn't exist
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-15 06:17:09 --> mysqli_sql_exception: Table 'db_kasirtoko.perusahaan_barang' doesn't exist in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 06:17:09 --> Table 'db_kasirtoko.perusahaan_barang' doesn't exist
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kasir\app\Models\PerusahaanModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(220): App\Models\PerusahaanModel->getPerusahaan()
+#8 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->perusahaan()
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-15 08:26:07 --> Undefined property: App\Controllers\Admin::$supplierModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 206)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 08:27:59 --> Undefined array key "id_perusahaaan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(211): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 08:28:43 --> Undefined array key "id_perusahaaan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(211): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 08:28:51 --> Undefined array key "id_perusahaaan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(211): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 08:29:00 --> Undefined array key "id_perushaan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\supplier.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(211): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-15 08:30:13 --> mysqli_sql_exception: Column 'id_perusahaan' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 08:30:13 --> Column 'id_perusahaan' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-15 08:30:28 --> mysqli_sql_exception: Column 'id_perusahaan' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 08:30:28 --> Column 'id_perusahaan' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-15 08:31:26 --> mysqli_sql_exception: Column 'id_perusahaan' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 08:31:26 --> Column 'id_perusahaan' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-15 08:40:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_kasirtoko`.`supplier`, CONSTRAINT `fk_id_perusahaan` FOREIGN KEY (`id_perusahaan`) REFERENCES `perusahaan` (`id_perusahaan`)) in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 08:40:13 --> Cannot add or update a child row: a foreign key constraint fails (`db_kasirtoko`.`supplier`, CONSTRAINT `fk_id_perusahaan` FOREIGN KEY (`id_perusahaan`) REFERENCES `perusahaan` (`id_perusahaan`))
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `su...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(227): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 08:46:30 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 08:51:50 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 08:52:10 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 08:56:14 --> Undefined variable $b
+#0 C:\xampp\htdocs\kasir\app\Views\admin\supplier\supplier.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 09:00:11 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 09:00:19 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/supplier/...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(212): view('admin/supplier/...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->supplier()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 10:03:45 --> Too few arguments to function App\Controllers\Admin::pegawai_update(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_update()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 10:04:28 --> Too few arguments to function App\Controllers\Admin::pegawai_update(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_update()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 10:04:59 --> Too few arguments to function App\Controllers\Admin::pegawai_update(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_update()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 10:05:09 --> Too few arguments to function App\Controllers\Admin::pegawai_delete(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_delete()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-15 10:05:36 --> Too few arguments to function App\Controllers\Admin::pegawai_delete(), 0 passed in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_delete()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-15 10:08:20 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(359): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 10:08:20 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(359): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 10:16:10 --> Cannot use object of type App\Models\PegawaiModel as array
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-15 10:31:54 --> mysqli_sql_exception: Unknown column 'id_pegawai' in 'field list' in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(362): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 10:31:54 --> Unknown column 'id_pegawai' in 'field list'
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(362): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 10:35:14 --> Call to undefined method App\Models\PerusahaanModel::generatenewidPegawai
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(353): CodeIgniter\Model->__call('generatenewidPe...', Array)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 10:35:42 --> Undefined array key "id_perusahaan"
+#0 C:\xampp\htdocs\kasir\app\Models\PegawaiModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(353): App\Models\PegawaiModel->generatenewidPegawai()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-15 10:36:03 --> Undefined array key "id_pegawai"
+#0 C:\xampp\htdocs\kasir\app\Models\PegawaiModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(353): App\Models\PegawaiModel->generatenewidPegawai()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-15 10:36:28 --> Undefined array key "id_pegawai"
+#0 C:\xampp\htdocs\kasir\app\Models\PegawaiModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(353): App\Models\PegawaiModel->generatenewidPegawai()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-15 11:18:58 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(357): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:21:51 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(357): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:22:30 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'admin', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:22:45 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aku', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:23:24 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/pegawai_s...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/pegawai_s...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 11:23:46 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aku', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:24:22 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aku', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:24:37 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'aku', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:27:04 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', '', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:27:34 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asdasd', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 11:27:57 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asdadasd', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(351): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-04-15 11:29:32 --> mysqli_sql_exception: Column 'role' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(372): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 11:29:32 --> Column 'role' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(372): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 22:20:28 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', '', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:20:48 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'sadas', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:24:03 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'sadas', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:24:09 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asdas', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:24:17 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', '', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(22): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:24:47 --> Undefined variable $val
+#0 C:\xampp\htdocs\kasir\app\Controllers\Register.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:24:50 --> Undefined variable $val
+#0 C:\xampp\htdocs\kasir\app\Controllers\Register.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:25:11 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', NULL, Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(15): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:25:25 --> trim,required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('trim,required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'asd', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\Register.php(23): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 22:32:41 --> Cannot declare class App\Controllers\User, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-15 22:33:09 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-15 22:34:43 --> Cannot declare class App\Controllers\Pegawai, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-15 22:36:19 --> Unclosed '{' on line 24
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(26): view('pegawai', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-15 22:53:42 --> mysqli_sql_exception: Column 'role' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\User.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 22:53:42 --> Column 'role' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\User.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-15 22:53:52 --> mysqli_sql_exception: Column 'role' cannot be null in C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\User.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 22:53:52 --> Column 'role' cannot be null
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kasir\app\Controllers\User.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#10 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-15 22:58:34 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/pegawai_sa...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/pegawai_sa...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:58:36 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:58:38 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/pegawai')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/pegawai')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:59:16 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 22:59:46 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 23:00:41 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 23:01:33 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'Username', '', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\User.php(43): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 23:03:02 -->  required is not a valid rule.
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' required')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'Username', '', Array, Array)
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kasir\app\Controllers\User.php(43): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-15 23:36:13 --> Invalid file: pegawawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawawai/index...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(53): view('pegawawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:37:25 --> Invalid file: pegawawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawawai/index...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(55): view('pegawawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:37:49 --> Invalid file: pegawawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawawai/index...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(57): view('pegawawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:37:54 --> Invalid file: pegawawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawawai/index...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(57): view('pegawawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:39:50 --> Undefined variable $error
+#0 C:\xampp\htdocs\kasir\app\Views\register.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\User.php(23): view('register', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->index()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-15 23:40:23 --> Invalid file: pegawawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawawai/index...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(59): view('pegawawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:40:51 --> Invalid file: pegawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/index.p...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(59): view('pegawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:40:58 --> Invalid file: pegawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/index.p...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(59): view('pegawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:41:33 --> Invalid file: pegawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/index.p...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(59): view('pegawai/index')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-15 23:43:00 --> syntax error, unexpected fully qualified name "\Config\Services", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-15 23:46:04 --> Invalid file: pegawai/index.php
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/index.p...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\User.php(59): view('pegawai/index', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->pegawai_save()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

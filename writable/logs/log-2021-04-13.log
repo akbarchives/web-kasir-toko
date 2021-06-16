@@ -1,0 +1,466 @@
+CRITICAL - 2021-04-13 02:02:54 --> Undefined variable $i
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\satuan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 17:09:11 --> Undefined variable $transaksi
+#0 C:\xampp\htdocs\kasir\app\Views\admin\transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/transaksi', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(28): view('admin/transaksi', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 17:11:04 --> Undefined variable $transaksi
+#0 C:\xampp\htdocs\kasir\app\Views\admin\transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/transaksi', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(28): view('admin/transaksi', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 17:14:20 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-13 17:14:42 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-13 17:15:17 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-13 17:15:34 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 17:16:35 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#3 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(79): view('admin/barang/sa...', Array)
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-13 17:24:42 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 17:41:57 --> Call to undefined method App\Models\SatuanModel::getLastIdSatuan
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): CodeIgniter\Model->__call('getLastIdSatuan', Array)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 17:42:46 --> Undefined array key 0
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:43:27 --> Undefined array key 1
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:43:33 --> Array to string conversion
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\satuan.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(80): view('admin/barang/sa...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 17:45:25 --> end(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(20): end(NULL)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:47:17 --> Undefined array key 0
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:47:58 --> Undefined array key 0
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:48:06 --> Undefined array key 1
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:49:14 --> Undefined array key 0
+#0 C:\xampp\htdocs\kasir\app\Models\SatuanModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->getidSatuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-13 17:53:45 --> syntax error, unexpected token ":", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:04:47 --> Call to undefined function App\Models\int()
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->generatenewidSatuan()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 18:05:05 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:06:28 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:06:45 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:06:57 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:06:59 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:07:30 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:07:58 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 18:08:19 --> Call to undefined function App\Models\int()
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->generatenewidSatuan()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 18:08:42 --> Call to undefined function App\Models\int()
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->generatenewidSatuan()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 18:09:55 --> Call to undefined function App\Models\len()
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(78): App\Models\SatuanModel->generatenewidSatuan()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 18:35:03 --> syntax error, unexpected variable "$a", expecting "," or ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(80): view('admin/barang/sa...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:38:02 --> Undefined array key "nama_satuan"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\satuan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(80): view('admin/barang/sa...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 22:38:47 --> Undefined array key "kategori_barang"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/ka...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(69): view('admin/barang/ka...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->kategori()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 22:39:01 --> Undefined array key "kategori"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/ka...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(69): view('admin/barang/ka...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->kategori()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 22:40:14 --> Undefined variable $kategori
+#0 C:\xampp\htdocs\kasir\app\Views\admin\barang\barang.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/ba...', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(51): view('admin/barang/ba...', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->barang()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 22:40:34 --> Undefined array key "tgl_transaksi"
+#0 C:\xampp\htdocs\kasir\app\Views\admin\transaksi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/transaksi', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(43): view('admin/transaksi', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->transaksi()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 22:45:21 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:46:05 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:46:17 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:46:50 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:47:36 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Satu...')
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Satu...')
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 22:50:39 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/barang/sa...', Array, true)
+#2 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(80): view('admin/barang/sa...', Array)
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan()
+#4 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-13 23:05:10 --> Undefined variable $transaksi
+#0 C:\xampp\htdocs\kasir\app\Views\admin\transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/transaksi', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(28): view('admin/transaksi', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 23:30:59 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/satuan_sa...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/satuan_sa...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:31:35 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/satuan_sa...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/satuan_sa...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:31:49 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/satuan_sa...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/satuan_sa...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:33:10 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/satuan_sa...')
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/satuan_sa...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:34:51 --> Undefined property: App\Controllers\Admin::$SatuanModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_save()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:35:00 --> Undefined variable $transaksi
+#0 C:\xampp\htdocs\kasir\app\Views\admin\transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/transaksi', Array, true)
+#4 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(28): view('admin/transaksi', Array)
+#5 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-13 23:35:16 --> Undefined property: App\Controllers\Admin::$SatuanModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_save()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:35:58 --> Undefined property: App\Controllers\Admin::$SatuanModel
+#0 C:\xampp\htdocs\kasir\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_save()
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-13 23:36:39 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::save()
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_save()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-13 23:36:53 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::save()
+#0 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->satuan_save()
+#1 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\kasir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
